@@ -1,0 +1,38 @@
+/*CSS attributal changes for tags*/
+body{
+   background-color:#cffffe;
+   font-family:Courier;
+   font-style:italic;
+  }
+  hr{
+    width:7%;
+    height:0px;
+    border-width:9px;
+    border-color:white;
+    border-style:none;
+    border-top-style:dotted;
+  }
+h1{
+  color: #66bfbf;
+}
+h2{
+  color: #66bfbf;
+}
+/* Hover property - when cursur move with the h2 text it changes color*/
+h2:hover{
+  font-size: 30px;
+  color:red;
+}
+/* CSS attributal for classe's */
+.name{
+  display: table;
+  font-size:30px;
+  background-color:red;
+  color:green;
+}
+/* CSS attributal for id's  */
+#author_name{
+  font-style: bold;
+  font-size: 30;
+  font-family:cursive;
+}
